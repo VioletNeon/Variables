@@ -62,5 +62,14 @@ public class Main {
 
         var remainderOfDivisionBetweenBoxers = Math.max(firstBoxerWeight, secondBoxerWeight) % Math.min(firstBoxerWeight, secondBoxerWeight);
         System.out.println("Остаток от деления между двумя весами: " + remainderOfDivisionBetweenBoxers + " кг");
+
+        var totalWorkHours = 640;
+        var employeeWorkHours = 8;
+        var allEmployees = totalWorkHours / employeeWorkHours;
+        System.out.println("Всего работников в компании — " + allEmployees + " человек");
+
+        allEmployees = 94;
+        totalWorkHours = allEmployees * employeeWorkHours;
+        System.out.println("Если в компании работает " + allEmployees + " человека, то всего " + totalWorkHours + " часов работы может быть поделено между сотрудниками.");
     }
 }
