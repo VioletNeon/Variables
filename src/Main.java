@@ -60,6 +60,7 @@ public class Main {
         var differenceBoxersWeight = Math.abs(firstBoxerWeight - secondBoxerWeight);
         System.out.println("Разница между массами бойцов: " + differenceBoxersWeight + " кг");
 
-
+        var remainderOfDivisionBetweenBoxers = Math.max(firstBoxerWeight, secondBoxerWeight) % Math.min(firstBoxerWeight, secondBoxerWeight);
+        System.out.println("Остаток от деления между двумя весами: " + remainderOfDivisionBetweenBoxers + " кг");
     }
 }
